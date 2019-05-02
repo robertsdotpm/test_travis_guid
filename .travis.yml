@@ -7,3 +7,6 @@ addons:
     homebrew:
         packages:
             - git 2.20.1
+
+script:
+    echo "Skip"
