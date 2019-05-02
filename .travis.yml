@@ -1,4 +1,9 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+osx_image: xcode10.2
+language: rust
+rust:
+	- 1.36.0
+	
+addons:
+	homebrew:
+		packages:
+			- git 2.20.1
